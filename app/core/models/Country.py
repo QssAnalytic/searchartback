@@ -1,0 +1,26 @@
+from django.db import models
+from .Indica import Indica
+
+
+class Country(models.Model):
+    indicator = models.ForeignKey(
+        Indica, on_delete=models.CASCADE, null=True, blank=True
+    )
+    country = models.CharField(max_length=100)
+    country_code2 = models.CharField(max_length=100, null=True, blank=True)
+    country_code = models.CharField(max_length=100, null=True, blank=True)
+    rank = models.BigIntegerField(null=True, blank=True)
+    amount = models.CharField(max_length=100, null=True, blank=True)
+    year = models.CharField(max_length=100, null=True, blank=True)
+
+    def __str__(self):
+        return self.country
+
+    class Meta:
+        verbose_name = "Country"
+        verbose_name_plural = "Countries"
+        # indexes = [
+        #     models.Index(fields=['indicator']),
+        #     models.Index(fields=['country']),
+        #     models.Index(fields=['year']),
+        # ] #migrated
