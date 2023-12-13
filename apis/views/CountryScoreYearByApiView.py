@@ -1,70 +1,68 @@
 from collections import defaultdict
+import json
 from rest_framework.views import APIView
 from core.models import Country
 from apis.serializers import CountrySerializer
 from rest_framework.response import Response
+from django.db.models import Avg, Max
+from django.core.serializers.json import DjangoJSONEncoder
 from operator import itemgetter
+
+
+
 
 
 class CountryScoreYearByApiView(APIView):
     serializer_class = CountrySerializer
 
     def get(self, request):
-        country = request.GET.get("country")
-        
-        queryset = (
-            Country.objects.filter(country=country)
-            .prefetch_related("indicator__subsector__sector")
-            .values_list("year", "rank", "indicator__subsector__sector__sector")
+        country = request.GET.get("country")    
+        max_indecator_rank = (
+            Country.objects.all()
+            .select_related("indicator")
+            .values("rank","country", "year").values("indicator__indicator","year").annotate(max_rank = Max('rank'))
         )
 
-        year_rank_dict = defaultdict(list)
-        for year, rank, sector in queryset:
-            if sector not in year_rank_dict:
-                year_rank_dict[sector] = {}
+        country_rank = (
+            Country.objects.filter(country=country)
+            .select_related("indicator")
+            .values("indicator__indicator","year", 'country').annotate(max_rank = Max('rank'))
+        ) 
 
-            if year not in year_rank_dict[sector]:
-                year_rank_dict[sector][year] = []
-
-            year_rank_dict[sector][year].append(rank)
-        
-        max_rank_dict = {}
-        for sector, year_data in year_rank_dict.items():
-            max_rank_year = {}  # Create a dictionary to store max ranks for each year in the sector
-            for year, ranks in year_data.items():
-                max_rank = max(ranks) if ranks else None  # Calculate the max rank, or None if no ranks are available
-                max_rank_year[year] = max_rank
-            max_rank_dict[sector] = max_rank_year  # Store the max rank data for the sector in max_rank_dict
-
+        result = {}
         response_data = []
-        year_scores = defaultdict(lambda: {"total_score": 0, "num_sectors": 0})
+        obj = {}
+        
+        for entry in max_indecator_rank:
+            year = entry["year"]
+            indicator = entry["indicator__indicator"]
+            max_rank = entry["max_rank"]
+            
+            if year not in result:
+                result[year] = {}
 
-        for key_sector, value_year_rank_list in year_rank_dict.items():
-            for year, ranks in value_year_rank_list.items():
-                max_rank = max_rank_dict[key_sector].get(year, None)
-                if max_rank is not None:
-                    for rank in ranks:
-                        if rank == 0:
-                            continue
-                        score = round((1 - rank / max_rank) * 100, 2)
-                        if score != 0:
-                            year_scores[year]["total_score"] += score
-                            year_scores[year]["num_sectors"] += 1
+            result[year][indicator] = max_rank
 
-        # Calculate the average score for each year
-        for year, data in year_scores.items():
-            if data["num_sectors"] == 0:
-                average_score = 0
+        for con_data in country_rank:
+            con_max_rank = con_data['max_rank']
+            max_indcator_rank = result[con_data['year']][con_data['indicator__indicator']]
+            score = round((1 - con_max_rank / max_indcator_rank) * 100, 2)
+            if con_data['year'] not in obj:
+                obj[con_data['year']] = {}
+                obj[con_data['year']]['score'] = score
+                obj[con_data['year']]['count'] = 1
+
             else:
-                average_score = round(data["total_score"] / data["num_sectors"], 2)
+                obj[con_data['year']]['score']+=score
+                obj[con_data['year']]['count']+=1
 
+        for year, avg in obj.items():
             response_data.append(
                 {
                     "year": year,
-                    "average_score": average_score,
+                    "average_score": round(avg['score'] / avg['count'], 2),
                 }
             )
-
         response_data = sorted(response_data, key=itemgetter("year"))
-
+            
         return Response(response_data)

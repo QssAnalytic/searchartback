@@ -1,4 +1,5 @@
 from rest_framework.views import APIView
+from django.db.models import Max, Min
 from rest_framework.response import Response
 from rest_framework import status
 
@@ -11,17 +12,6 @@ class AvailableRanksView(APIView):
 
         queryset = Country.objects.select_related("indicator").filter(
             indicator__indicator=indicator_name,year=year
-        )
-        
-        # get min and max rank
-        ranks_list = []
-        # print(queryset)
-        for data in queryset:
-            ranks_list.append(data.rank)
-        
-        result = {
-            "min_rank": min(ranks_list, default="EMPTY"),
-            "max_rank": max(ranks_list, default="EMPTY"),
-        }
+        ).aggregate(min_rank=Min('rank'), max_rank=Max('rank'))
 
-        return Response(result, status=status.HTTP_200_OK)
+        return Response(queryset, status=status.HTTP_200_OK)

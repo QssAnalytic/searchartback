@@ -48,5 +48,5 @@ class CountryInfoApiView(APIView):
             response_data.append(indicator_info)
 
         response_data.sort(key=itemgetter("score"), reverse=True)
-
+        
         return Response(response_data)

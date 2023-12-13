@@ -1,0 +1,602 @@
+[
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2010",
+    "country": "Azerbaijan",
+    "max_rank": 94
+  },
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2011",
+    "country": "Azerbaijan",
+    "max_rank": 90
+  },
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2012",
+    "country": "Azerbaijan",
+    "max_rank": 93
+  },
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2013",
+    "country": "Azerbaijan",
+    "max_rank": 95
+  },
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2014",
+    "country": "Azerbaijan",
+    "max_rank": 91
+  },
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2015",
+    "country": "Azerbaijan",
+    "max_rank": 93
+  },
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2016",
+    "country": "Azerbaijan",
+    "max_rank": 101
+  },
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2017",
+    "country": "Azerbaijan",
+    "max_rank": 102
+  },
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2018",
+    "country": "Azerbaijan",
+    "max_rank": 100
+  },
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2019",
+    "country": "Azerbaijan",
+    "max_rank": 100
+  },
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2020",
+    "country": "Azerbaijan",
+    "max_rank": 93
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "1999",
+    "country": "Azerbaijan",
+    "max_rank": 82
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2000",
+    "country": "Azerbaijan",
+    "max_rank": 83
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2001",
+    "country": "Azerbaijan",
+    "max_rank": 86
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2002",
+    "country": "Azerbaijan",
+    "max_rank": 58
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2003",
+    "country": "Azerbaijan",
+    "max_rank": 85
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2004",
+    "country": "Azerbaijan",
+    "max_rank": 84
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2005",
+    "country": "Azerbaijan",
+    "max_rank": 81
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2006",
+    "country": "Azerbaijan",
+    "max_rank": 78
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2007",
+    "country": "Azerbaijan",
+    "max_rank": 79
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2008",
+    "country": "Azerbaijan",
+    "max_rank": 80
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2009",
+    "country": "Azerbaijan",
+    "max_rank": 76
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2010",
+    "country": "Azerbaijan",
+    "max_rank": 75
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2011",
+    "country": "Azerbaijan",
+    "max_rank": 72
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2012",
+    "country": "Azerbaijan",
+    "max_rank": 75
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2013",
+    "country": "Azerbaijan",
+    "max_rank": 60
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2014",
+    "country": "Azerbaijan",
+    "max_rank": 54
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2015",
+    "country": "Azerbaijan",
+    "max_rank": 58
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2016",
+    "country": "Azerbaijan",
+    "max_rank": 60
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2017",
+    "country": "Azerbaijan",
+    "max_rank": 58
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2018",
+    "country": "Azerbaijan",
+    "max_rank": 69
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2019",
+    "country": "Azerbaijan",
+    "max_rank": 73
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2020",
+    "country": "Azerbaijan",
+    "max_rank": 89
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2001",
+    "country": "Azerbaijan",
+    "max_rank": 6
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2002",
+    "country": "Azerbaijan",
+    "max_rank": 5
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2003",
+    "country": "Azerbaijan",
+    "max_rank": 4
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2004",
+    "country": "Azerbaijan",
+    "max_rank": 5
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2005",
+    "country": "Azerbaijan",
+    "max_rank": 5
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2006",
+    "country": "Azerbaijan",
+    "max_rank": 6
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2007",
+    "country": "Azerbaijan",
+    "max_rank": 5
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2008",
+    "country": "Azerbaijan",
+    "max_rank": 5
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2009",
+    "country": "Azerbaijan",
+    "max_rank": 6
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2010",
+    "country": "Azerbaijan",
+    "max_rank": 8
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2011",
+    "country": "Azerbaijan",
+    "max_rank": 6
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2012",
+    "country": "Azerbaijan",
+    "max_rank": 6
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2013",
+    "country": "Azerbaijan",
+    "max_rank": 8
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2014",
+    "country": "Azerbaijan",
+    "max_rank": 8
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2015",
+    "country": "Azerbaijan",
+    "max_rank": 7
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2016",
+    "country": "Azerbaijan",
+    "max_rank": 7
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2017",
+    "country": "Azerbaijan",
+    "max_rank": 7
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2018",
+    "country": "Azerbaijan",
+    "max_rank": 7
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2019",
+    "country": "Azerbaijan",
+    "max_rank": 7
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "1991",
+    "country": "Azerbaijan",
+    "max_rank": 59
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "1992",
+    "country": "Azerbaijan",
+    "max_rank": 59
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "1993",
+    "country": "Azerbaijan",
+    "max_rank": 58
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "1994",
+    "country": "Azerbaijan",
+    "max_rank": 58
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "1995",
+    "country": "Azerbaijan",
+    "max_rank": 60
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "1996",
+    "country": "Azerbaijan",
+    "max_rank": 60
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "1997",
+    "country": "Azerbaijan",
+    "max_rank": 55
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "1998",
+    "country": "Azerbaijan",
+    "max_rank": 51
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "1999",
+    "country": "Azerbaijan",
+    "max_rank": 50
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2000",
+    "country": "Azerbaijan",
+    "max_rank": 50
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2001",
+    "country": "Azerbaijan",
+    "max_rank": 47
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2002",
+    "country": "Azerbaijan",
+    "max_rank": 46
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2003",
+    "country": "Azerbaijan",
+    "max_rank": 44
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2004",
+    "country": "Azerbaijan",
+    "max_rank": 45
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2005",
+    "country": "Azerbaijan",
+    "max_rank": 44
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2006",
+    "country": "Azerbaijan",
+    "max_rank": 44
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2007",
+    "country": "Azerbaijan",
+    "max_rank": 46
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2008",
+    "country": "Azerbaijan",
+    "max_rank": 47
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2009",
+    "country": "Azerbaijan",
+    "max_rank": 49
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2010",
+    "country": "Azerbaijan",
+    "max_rank": 49
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2011",
+    "country": "Azerbaijan",
+    "max_rank": 48
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2012",
+    "country": "Azerbaijan",
+    "max_rank": 47
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2013",
+    "country": "Azerbaijan",
+    "max_rank": 45
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2014",
+    "country": "Azerbaijan",
+    "max_rank": 45
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2015",
+    "country": "Azerbaijan",
+    "max_rank": 45
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2016",
+    "country": "Azerbaijan",
+    "max_rank": 46
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2017",
+    "country": "Azerbaijan",
+    "max_rank": 46
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2018",
+    "country": "Azerbaijan",
+    "max_rank": 45
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2019",
+    "country": "Azerbaijan",
+    "max_rank": 45
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "1990",
+    "country": "Azerbaijan",
+    "max_rank": 165
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "1991",
+    "country": "Azerbaijan",
+    "max_rank": 165
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "1992",
+    "country": "Azerbaijan",
+    "max_rank": 161
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "1993",
+    "country": "Azerbaijan",
+    "max_rank": 154
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "1994",
+    "country": "Azerbaijan",
+    "max_rank": 158
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "1995",
+    "country": "Azerbaijan",
+    "max_rank": 161
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "1996",
+    "country": "Azerbaijan",
+    "max_rank": 156
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "1997",
+    "country": "Azerbaijan",
+    "max_rank": 154
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "1998",
+    "country": "Azerbaijan",
+    "max_rank": 152
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "1999",
+    "country": "Azerbaijan",
+    "max_rank": 153
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "2000",
+    "country": "Azerbaijan",
+    "max_rank": 158
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "2001",
+    "country": "Azerbaijan",
+    "max_rank": 162
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "2002",
+    "country": "Azerbaijan",
+    "max_rank": 156
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "2003",
+    "country": "Azerbaijan",
+    "max_rank": 153
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "2004",
+    "country": "Azerbaijan",
+    "max_rank": 153
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "2005",
+    "country": "Azerbaijan",
+    "max_rank": 152
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "2006",
+    "country": "Azerbaijan",
+    "max_rank": 156
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "2007",
+    "country": "Azerbaijan",
+    "max_rank": 152
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "2008",
+    "country": "Azerbaijan",
+    "max_rank": 158
+  }
+]

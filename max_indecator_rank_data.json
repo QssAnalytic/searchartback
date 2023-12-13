@@ -1,0 +1,502 @@
+[
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2010",
+    "max_rank": 169
+  },
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2011",
+    "max_rank": 172
+  },
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2012",
+    "max_rank": 173
+  },
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2013",
+    "max_rank": 170
+  },
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2014",
+    "max_rank": 170
+  },
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2015",
+    "max_rank": 169
+  },
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2016",
+    "max_rank": 166
+  },
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2017",
+    "max_rank": 165
+  },
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2018",
+    "max_rank": 163
+  },
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2019",
+    "max_rank": 158
+  },
+  {
+    "indicator__indicator": "ATMs per 100000 adults",
+    "year": "2020",
+    "max_rank": 148
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "1999",
+    "max_rank": 156
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2000",
+    "max_rank": 194
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2001",
+    "max_rank": 194
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2002",
+    "max_rank": 195
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2003",
+    "max_rank": 195
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2004",
+    "max_rank": 195
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2005",
+    "max_rank": 195
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2006",
+    "max_rank": 195
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2007",
+    "max_rank": 196
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2008",
+    "max_rank": 196
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2009",
+    "max_rank": 197
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2010",
+    "max_rank": 197
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2011",
+    "max_rank": 197
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2012",
+    "max_rank": 197
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2013",
+    "max_rank": 197
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2014",
+    "max_rank": 197
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2015",
+    "max_rank": 197
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2016",
+    "max_rank": 197
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2017",
+    "max_rank": 197
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2018",
+    "max_rank": 197
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2019",
+    "max_rank": 197
+  },
+  {
+    "indicator__indicator": "Access to electricity percent of the population",
+    "year": "2020",
+    "max_rank": 197
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2001",
+    "max_rank": 26
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2002",
+    "max_rank": 40
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2003",
+    "max_rank": 46
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2004",
+    "max_rank": 38
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2005",
+    "max_rank": 54
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2006",
+    "max_rank": 48
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2007",
+    "max_rank": 71
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2008",
+    "max_rank": 47
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2009",
+    "max_rank": 49
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2010",
+    "max_rank": 67
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2011",
+    "max_rank": 47
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2012",
+    "max_rank": 49
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2013",
+    "max_rank": 66
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2014",
+    "max_rank": 42
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2015",
+    "max_rank": 41
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2016",
+    "max_rank": 59
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2017",
+    "max_rank": 51
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2018",
+    "max_rank": 51
+  },
+  {
+    "indicator__indicator": "Agricultural irrigated land (% of total agricultural land)",
+    "year": "2019",
+    "max_rank": 47
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "1991",
+    "max_rank": 206
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "1992",
+    "max_rank": 206
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "1993",
+    "max_rank": 207
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "1994",
+    "max_rank": 207
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "1995",
+    "max_rank": 207
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "1996",
+    "max_rank": 207
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "1997",
+    "max_rank": 207
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "1998",
+    "max_rank": 207
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "1999",
+    "max_rank": 207
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2000",
+    "max_rank": 208
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2001",
+    "max_rank": 208
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2002",
+    "max_rank": 208
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2003",
+    "max_rank": 208
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2004",
+    "max_rank": 208
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2005",
+    "max_rank": 208
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2006",
+    "max_rank": 208
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2007",
+    "max_rank": 208
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2008",
+    "max_rank": 208
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2009",
+    "max_rank": 208
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2010",
+    "max_rank": 208
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2011",
+    "max_rank": 208
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2012",
+    "max_rank": 209
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2013",
+    "max_rank": 209
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2014",
+    "max_rank": 209
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2015",
+    "max_rank": 209
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2016",
+    "max_rank": 209
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2017",
+    "max_rank": 209
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2018",
+    "max_rank": 209
+  },
+  {
+    "indicator__indicator": "Agricultural land (% of land area)",
+    "year": "2019",
+    "max_rank": 209
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "1990",
+    "max_rank": 186
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "1991",
+    "max_rank": 187
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "1992",
+    "max_rank": 190
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "1993",
+    "max_rank": 190
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "1994",
+    "max_rank": 190
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "1995",
+    "max_rank": 191
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "1996",
+    "max_rank": 191
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "1997",
+    "max_rank": 191
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "1998",
+    "max_rank": 191
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "1999",
+    "max_rank": 191
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "2000",
+    "max_rank": 194
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "2001",
+    "max_rank": 194
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "2002",
+    "max_rank": 194
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "2003",
+    "max_rank": 194
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "2004",
+    "max_rank": 194
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "2005",
+    "max_rank": 195
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "2006",
+    "max_rank": 195
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "2007",
+    "max_rank": 195
+  },
+  {
+    "indicator__indicator": "Alternative and nuclear energy percent of total energy use",
+    "year": "2008",
+    "max_rank": 195
+  }
+]

@@ -1,7 +1,7 @@
 from django.urls import path, include
 
 
-from .views import *
+from apis.views import *
 
 urlpatterns = [
     path('sectors/', SectViewSet.as_view(), name='sectors'),
@@ -35,4 +35,5 @@ urlpatterns = [
     path("sector-average-score/", SectorAverageScoreApiView.as_view(), name="sector_average_score"),
     path("country-score-year/", CountryScoreYearByApiView.as_view(), name="country_score_year"),
     path("country-score-difference/", ScoreDifferenceTwoYearsApiView.as_view(), name="country_score_sector"),
+    # path("country-test-score-difference/", ScoreTestDifferenceTwoYearsApiView.as_view(), name="country_score_sector"),
 ]

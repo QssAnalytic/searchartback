@@ -69,5 +69,6 @@ class RankDifferenceApiView(APIView):
             "second_year": int(year2),
             "countries": ordered_rank_diff
         }
+        print(diagram2)
 
         return Response(diagram2, status=status.HTTP_200_OK)
