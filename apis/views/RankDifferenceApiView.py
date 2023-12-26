@@ -1,3 +1,4 @@
+from pprint import pprint
 import time
 from django.core.exceptions import ObjectDoesNotExist
 from django.forms import model_to_dict
@@ -7,10 +8,46 @@ from collections import defaultdict
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import status
-
+from drf_yasg.utils import swagger_auto_schema 
+from drf_yasg import openapi
 from core.models import Country
 
 class RankDifferenceApiView(APIView):
+    @swagger_auto_schema(
+        manual_parameters=[
+            openapi.Parameter(
+                'indicator',
+                in_=openapi.IN_QUERY,
+                type=openapi.TYPE_STRING,
+                description="Gross Domestic Product billions of U.S. dollars"
+                
+            ),
+            openapi.Parameter(
+                'year1',
+                in_=openapi.IN_QUERY,
+                type=openapi.TYPE_STRING,
+                description="2019"
+                
+            ),
+            openapi.Parameter(
+                'year2',
+                in_=openapi.IN_QUERY,
+                type=openapi.TYPE_STRING,
+                description="2021"
+                
+            ),
+            openapi.Parameter(
+                'countries',
+                in_=openapi.IN_QUERY,
+                type=openapi.TYPE_STRING,
+                description="Afghanistan;Albania;Algeria;Andorra;Angola;Antigua and Barbuda;Argentina"
+                
+            ),
+            
+
+        ],responses={200: ""},
+        
+    )
     def get(self, request):
 
         indicator_name =  request.GET.get('indicator')
@@ -61,7 +98,7 @@ class RankDifferenceApiView(APIView):
                     - rank_by_country_year2[country]['rank'],
                 })
                 
-        ordered_rank_diff = sorted(rank_diff_by_country, key=lambda x: x['country'])
+        ordered_rank_diff = sorted(rank_diff_by_country, key=lambda x: x['rank_difference'], reverse=True)
                 
         diagram2 = {
             "indicator": indicator_name,
@@ -69,6 +106,5 @@ class RankDifferenceApiView(APIView):
             "second_year": int(year2),
             "countries": ordered_rank_diff
         }
-        print(diagram2)
 
         return Response(diagram2, status=status.HTTP_200_OK)

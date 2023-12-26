@@ -24,7 +24,7 @@ urlpatterns = [
     path('rank-amount-chart/', RankAmountDiagrams.as_view(),name='diagram_3&4'),
     # path('line-chart/', LineChartApiView.as_view(), name='line_chart'),
     # path('bump-chart/', BumpChartApiView.as_view(), name='bump_chart'),
-
+    # path('chat-bot/', ChatBotAPIView.as_view()),
     #second dashboard
     path('country-info/', CountryInfoApiView.as_view(), name='country_info'),
     path('country-diagram/', CountryIndicaDiagramApiView.as_view(), name='country_diagram'),

@@ -24,3 +24,4 @@ from .get_default import SectSubsectIndicaView
 from .RanksView import AvailableRanksView 
 from .AmountDiagram import AmountView
 from .RankAmountDiagram import RankAmountDiagrams 
+from .chatbot import *
