@@ -33,7 +33,6 @@ class AvailableRanksView(APIView):
     def get(self, request):
         indicator_name = request.GET.get('indicator')
         year = request.GET.get('year')
-        print(type(year))
 
         queryset = Country.objects.select_related("indicator").filter(
             indicator__indicator=indicator_name,year=year

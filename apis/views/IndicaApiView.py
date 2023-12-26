@@ -2,13 +2,25 @@ from rest_framework.views import APIView
 from core.models import Sect, SubSect
 from apis.serializers import IndicaSerializer
 from rest_framework.response import Response
-
+from drf_yasg.utils import swagger_auto_schema 
+from drf_yasg import openapi
 
 class IndicaApiView(APIView):
     serializer_class = IndicaSerializer
-
+    @swagger_auto_schema(
+        manual_parameters=[
+            openapi.Parameter(
+                'subsector',
+                in_=openapi.IN_QUERY,
+                type=openapi.TYPE_STRING,
+                description="Productivity and Labor Market",
+                default="Productivity and Labor Market"
+                
+            )
+        ],responses={200: ""},
+    )
     def get(self, request, pk=None):
-        sector_name = request.query_params.get("sector")
+        # sector_name = request.query_params.get("sector")
         subsector_name = request.query_params.get("subsector")
 
         if pk is not None:
