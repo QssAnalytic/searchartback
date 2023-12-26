@@ -13,14 +13,16 @@ class AvailableRanksView(APIView):
                 'indicator',
                 in_=openapi.IN_QUERY,
                 type=openapi.TYPE_STRING,
-                description="Gross Domestic Product billions of U.S. dollars"
+                description="Gross Domestic Product billions of U.S. dollars",
+                default="Gross Domestic Product billions of U.S. dollars"
                 
             ),
             openapi.Parameter(
                 'year',
                 in_=openapi.IN_QUERY,
                 type=openapi.TYPE_STRING,
-                description="2019"
+                description="2019",
+                default="2019"
                 
             ),
             

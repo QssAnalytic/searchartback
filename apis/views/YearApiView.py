@@ -11,14 +11,16 @@ class YearApiView(APIView):
                 'countries',
                 in_=openapi.IN_QUERY,
                 type=openapi.TYPE_STRING,
-                description="Afghanistan;Albania;Algeria;Andorra;Angola;Antigua and Barbuda;Argentina"
+                description="Afghanistan;Albania;Algeria;Andorra;Angola;Antigua and Barbuda;Argentina",
+                default="Afghanistan;Albania;Algeria;Andorra;Angola;Antigua and Barbuda;Argentina"
                 
             ),
             openapi.Parameter(
                 'indicator',
                 in_=openapi.IN_QUERY,
                 type=openapi.TYPE_STRING,
-                description="Gross Domestic Product billions of U.S. dollars"
+                description="Gross Domestic Product billions of U.S. dollars",
+                default="Gross Domestic Product billions of U.S. dollars"
                 
             ),
             

@@ -19,28 +19,32 @@ class RankDifferenceApiView(APIView):
                 'indicator',
                 in_=openapi.IN_QUERY,
                 type=openapi.TYPE_STRING,
-                description="Gross Domestic Product billions of U.S. dollars"
+                description="Gross Domestic Product billions of U.S. dollars",
+                default="Gross Domestic Product billions of U.S. dollars"
                 
             ),
             openapi.Parameter(
                 'year1',
                 in_=openapi.IN_QUERY,
                 type=openapi.TYPE_STRING,
-                description="2019"
+                description="2019",
+                default="2019"
                 
             ),
             openapi.Parameter(
                 'year2',
                 in_=openapi.IN_QUERY,
                 type=openapi.TYPE_STRING,
-                description="2021"
+                description="2021",
+                default="2021"
                 
             ),
             openapi.Parameter(
                 'countries',
                 in_=openapi.IN_QUERY,
                 type=openapi.TYPE_STRING,
-                description="Afghanistan;Albania;Algeria;Andorra;Angola;Antigua and Barbuda;Argentina"
+                description="Afghanistan;Albania;Algeria;Andorra;Angola;Antigua and Barbuda;Argentina",
+                default="Afghanistan;Albania;Algeria;Andorra;Angola;Antigua and Barbuda;Argentina"
                 
             ),
             
